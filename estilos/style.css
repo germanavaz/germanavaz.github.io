@@ -5,6 +5,40 @@ body, html {
     padding: 0;
 }
 
+/* light/dark mode */
+:root {
+    --text-color:  #ffffff;
+    --switch-url: url(../imagens/moon.svg);
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --bg-color: #000000;
+    --bg-button-color:rgba(0, 255, 150, 0.4);
+    --bg-button-color-hover:  rgba(255, 255, 255, 0.1);
+    --button-border-color:  rgba(255, 255, 255, 0.5);
+    --switch-button-color: rgba(0, 255, 150, 0.3);
+}
+
+.light {
+    --text-color:  #000000;
+    --switch-url: url(../imagens/sun.svg);
+    --highlight-color: rgba(0, 0, 0, 0.1);
+    --bg-color: #FFFFFF;
+    --bg-button-color:rgba(0, 255, 100, 0.8);
+    --bg-button-color-hover:  rgba(0, 0, 0, 0.2);
+    --button-border-color:  rgba(0, 0, 0, 0.7);
+    --switch-button-colo: rgba(0, 255, 0);
+
+}
+
+/* configs gerais */
+
+body {
+    background-color: var(--bg-color);
+}
+
+body * {
+    color: var(--text-color);
+}
+
 
 /* header */
 #header {
@@ -12,7 +46,7 @@ body, html {
     justify-content: space-between;
     align-items: center;
 
-    background-color: grey;
+    background-color: var(--bg-button-color);
     
     height: auto;
     width: 100vw;
@@ -34,3 +68,46 @@ nav a {
     text-decoration: none;
 }
 
+/* switch */
+
+#switch {
+    position: relative;
+    width: 64px;
+    margin: 4px 10px;
+}
+
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: white var(--switch-url) no-repeat center;
+    border: 0;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+
+    animation: slide-back 0.2s;
+}
+
+.light #switch button {
+    animation: slide-in 0.2s forwards;
+    left: 0;
+  }
+  
+#switch button:hover {
+    outline: 8px solid var(--highlight-color);
+}
+
+#switch span {
+    display: block;
+    width: 64px;
+    height: 24px;
+    background: var(--switch-button-color);
+    border: 1px solid var(--switch-border-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 9999px;
+}
