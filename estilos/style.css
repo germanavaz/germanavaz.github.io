@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: grey;
+    
+    height: auto;
+    width: 100vw;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+
+#nav ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
