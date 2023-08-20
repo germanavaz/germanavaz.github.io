@@ -1,26 +1,32 @@
 @charset "UTF-8";
 
-/* light/dark mode */
+/* dark normal mode */
 :root {
     --text-color:  #ffffff;
+    --highlight-text-color: #2AA2A2; /* para textos em destaque */
     --switch-url: url('../../imagens/moon.svg');
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --bg-color: #000000;
-    --bg-button-color:rgba(0, 255, 150, 0.4);
+    --bg-color: #29292F;
+    --bg-button-color:#196161;
     --bg-button-color-hover:  rgba(255, 255, 255, 0.1);
-    --button-border-color:  rgba(255, 255, 255, 0.5);
-    --switch-button-color: rgba(0, 255, 150, 0.3);
+    --button-border-color:  #727383;
+    --bg-menu-hamburguer: #37817D;
+    --switch-button-color: #37817D;
 }
+
+/* light mode */
 
 .light {
     --text-color:  #000000;
+    --highlight-text-color:#196161; /* para textos em destaque */
     --switch-url: url(../../imagens/sun.svg);
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --bg-color: #FFFFFF;
-    --bg-button-color:rgba(0, 255, 100, 0.8);
+    --bg-color: #E6EEEA;
+    --bg-button-color: #2AA2A2;
     --bg-button-color-hover:  rgba(0, 0, 0, 0.2);
-    --button-border-color:  rgba(0, 0, 0, 0.7);
-    --switch-button-colo: rgba(0, 255, 0);
+    /* --button-border-color:  rgba(0, 0, 0, 0.7); */
+    --bg-menu-hamburguer:  #37817D;
+    --switch-button-color: #37817D;
 
 }
 

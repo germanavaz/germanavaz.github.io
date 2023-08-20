@@ -7,10 +7,10 @@
 
 
 /* Home */
-@import './home/header.css';
+@import './home/header.css'; /* menus */
 @import './home/introducao.css';
-@import './home/skills.css';
-@import './home/sobre.css';
 @import './home/projetos.css';
+@import './home/sobre.css';
+@import './home/contato.css';
 @import './home/footer.css';
 
