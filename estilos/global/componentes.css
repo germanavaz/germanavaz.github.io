@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* light/dark mode */
+:root {
+    --text-color:  #ffffff;
+    --switch-url: url('../../imagens/moon.svg');
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --bg-color: #000000;
+    --bg-button-color:rgba(0, 255, 150, 0.4);
+    --bg-button-color-hover:  rgba(255, 255, 255, 0.1);
+    --button-border-color:  rgba(255, 255, 255, 0.5);
+    --switch-button-color: rgba(0, 255, 150, 0.3);
+}
+
+.light {
+    --text-color:  #000000;
+    --switch-url: url(../../imagens/sun.svg);
+    --highlight-color: rgba(0, 0, 0, 0.1);
+    --bg-color: #FFFFFF;
+    --bg-button-color:rgba(0, 255, 100, 0.8);
+    --bg-button-color-hover:  rgba(0, 0, 0, 0.2);
+    --button-border-color:  rgba(0, 0, 0, 0.7);
+    --switch-button-colo: rgba(0, 255, 0);
+
+}
+
+/* configs gerais */
+
+body {
+    background-color: var(--bg-color);
+}
+
+body * {
+    color: var(--text-color);
+}
+
