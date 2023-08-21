@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
 footer {
-    border: solid 2px purple;
+    background-color: var(--bg-button-color);
+    padding: 20px;
 }
