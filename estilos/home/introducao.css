@@ -55,13 +55,13 @@ main header .tecnologias p {
 }
 
 @media (max-width: 400px) {
-    main header h1 {
+    /* main header h1 {
         font-size: 1rem;
     }
 
     main header .descricao {
         font-size: 0.8rem;
-    }
+    } */
 
     main header .redes, .tecnologias{
         justify-content: left;
