@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
 main #contato {
-  padding: 20px 0;  
+  padding: 20px 0; 
+}
+
+.contatos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.contatos a {
+  color: var(--bg-color2);
+}
+
+.contatos a:hover {
+  color: var(--bg-button-color-hover);
 }
