@@ -11,7 +11,7 @@ main #sobre {
 }
 
 .sobre-mim p {
-   line-height: normal;
+   line-height: 1.8rem;
    letter-spacing: 0.1rem;
    padding-bottom: 15px;
 }
