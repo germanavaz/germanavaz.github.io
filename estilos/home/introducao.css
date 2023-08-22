@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 main header {
-    padding-top: 4rem;
+    padding-top: calc(70px + 4rem) ;
     text-align: center;
 }
 
