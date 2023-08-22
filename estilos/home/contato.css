@@ -2,6 +2,7 @@
 
 main #contato {
   padding: 20px 0; 
+  font-size: 1.2rem;
 }
 
 .contatos {
@@ -10,12 +11,10 @@ main #contato {
   align-items: center;
   gap: 30px;
   padding: 1rem;
-  font-size: 1.2rem;
+  
 }
 
-.contatos a {
-  color: var(--bg-color2);
-}
+
 
 .contatos a:hover {
   color: var(--bg-button-color-hover);

@@ -23,6 +23,10 @@ main header .redes {
     font-size: 1.8rem;
 }
 
+.redes ion-icon:hover {
+    color: var(--bg-button-color);
+}
+
 /* Tech Skills */
 
 main header .tecnologias {
