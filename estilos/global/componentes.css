@@ -42,3 +42,44 @@ body * {
     color: var(--text-color);
 }
 
+.container {
+    max-width: 1000px;
+    padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-weight: 600;
+    color:  var(--highlight-text-color);
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    display: block;
+    
+    /* line-height: 1.15;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--highlight-text-color); */
+    /* text-align: left; */
+}
+
+.bg-color {
+    background-color: var(--bg-color2);
+}
+
+.bg-color2 {
+    background-color: var(--bg-color);
+}
+
+
+@media (max-width: 500px) {
+
+    .container {
+        padding: 0px;
+    }
+    
+}
+

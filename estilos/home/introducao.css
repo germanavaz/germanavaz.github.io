@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 main header {
-    background-color: var(--bg-color2);
-    padding: 4rem;
+    padding-top: 4rem;
     text-align: center;
 }
 
@@ -41,18 +40,23 @@ main header .tecnologias p {
 
 @media (max-width: 800px) {
     main header h1 {
-        font-size: 2rem;
-        text-align: start;
+        font-size: 1.8rem;
+        text-align: left;
     }
 
     main header .descricao{
-        font-size: 1rem;
+        max-width: 400px;
+        text-align: left;
     }
 }
 
 @media (max-width: 400px) {
     main header h1 {
         font-size: 1rem;
+    }
+
+    main header .descricao {
+        font-size: 0.8rem;
     }
 
     main header .redes, .tecnologias{
