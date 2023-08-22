@@ -1,5 +1,5 @@
 @charset "UTF-8";
 
 main #contato {
-    border: solid 2px yellow;
+  padding: 20px 0;  
 }

@@ -1,5 +1,5 @@
 @charset "UTF-8";
 
 main #sobre {
-   border: 2px solid red;
+   padding: 20px 0;  
 }
