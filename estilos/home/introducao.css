@@ -1,5 +1,61 @@
 @charset "UTF-8";
 
 main header {
-    border: solid 2px red;
+    background-color: var(--bg-color2);
+    padding: 4rem;
+    text-align: center;
+}
+
+main header h1 {
+    color: var(--highlight-text-color);
+    font-size: 3rem;
+}
+
+main header .descricao {
+    max-width: 70ch;
+    font-size: 1.2rem;
+    margin: 30px auto;
+}
+
+main header .redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.8rem;
+}
+
+/* Tech Skills */
+
+main header .tecnologias {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+main header .tecnologias h2 {
+    display: inline;
+}
+
+main header .tecnologias p {
+    display: inline;
+    color: var(--bg-button-color);
+}
+
+@media (max-width: 800px) {
+    main header h1 {
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    main header .descricao{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    main header h1 {
+        font-size: 1rem;
+    }
+
+    main header .redes, .tecnologias{
+        justify-content: left;
+    }
 }

@@ -7,6 +7,7 @@
     --switch-url: url('../../imagens/moon.svg');
     --highlight-color: rgba(255, 255, 255, 0.2);
     --bg-color: #29292F;
+    --bg-color2: #727383;
     --bg-button-color:#196161;
     --bg-button-color-hover:  rgba(255, 255, 255, 0.1);
     --button-border-color:  #727383;
@@ -22,9 +23,10 @@
     --switch-url: url(../../imagens/sun.svg);
     --highlight-color: rgba(0, 0, 0, 0.1);
     --bg-color: #E6EEEA;
+    --bg-color2: #f5f5f5;
     --bg-button-color: #2AA2A2;
     --bg-button-color-hover:  rgba(0, 0, 0, 0.2);
-    /* --button-border-color:  rgba(0, 0, 0, 0.7); */
+    --button-border-color:  rgba(0, 0, 0, 0.7);
     --bg-menu-hamburguer:  #37817D;
     --switch-button-color: #37817D;
 
