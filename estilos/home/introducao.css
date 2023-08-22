@@ -26,7 +26,7 @@ main header .redes {
 /* Tech Skills */
 
 main header .tecnologias {
-    padding-top: 2rem;
+    padding: 2rem;
     font-size: 1.2rem;
 }
 main header .tecnologias h2 {

@@ -58,12 +58,6 @@ body * {
     letter-spacing: 1px;
     display: block;
     
-    /* line-height: 1.15;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--highlight-text-color); */
-    /* text-align: left; */
 }
 
 .bg-color {
