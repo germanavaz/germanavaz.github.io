@@ -13,6 +13,7 @@
     --button-border-color:  #727383;
     --bg-menu-hamburguer: #37817D;
     --switch-button-color: #37817D;
+    --bg-tecnologias: rgba(0, 0, 0, .5);
 }
 
 /* light mode */
@@ -29,6 +30,7 @@
     --button-border-color:  rgba(0, 0, 0, 0.7);
     --bg-menu-hamburguer:  #37817D;
     --switch-button-color: #37817D;
+    --bg-tecnologias: rgba(0, 0, 0, .2);
 
 }
 
