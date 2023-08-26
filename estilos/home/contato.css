@@ -14,15 +14,21 @@ main #contato {
   
 }
 
+.contatos div {
+  display: flex;
+  gap: 1rem;
+
+}
+
 
 
 .contatos a:hover {
   color: var(--bg-button-color-hover);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 690px) {
   .contatos {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   
 }
