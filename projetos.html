@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/developer.png" type="image/png">
+    <link rel="stylesheet" href="./estilos/style.css">
+
     <title>Projetos | Germana Maria Vaz</title>
 </head>
 <body>
-    - filtros
-    - mais projetos
+
+    <header id="header">
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- FILTROS -->
+        <section id="projetos-projetos" class="bg-color">
+            <div id="filtro">
+                <div id="categorias">
+                  <label><input type="checkbox" name="categoria" value="html"> HTML</label>
+                  <label><input type="checkbox" name="categoria" value="css"> CSS</label>
+                  <label><input type="checkbox" name="categoria" value="javascript"> JavaScript</label>
+                  <label><input type="checkbox" name="categoria" value="wordpress"> WordPress</label>
+                  <label><input type="checkbox" name="categoria" value="elementor"> Elementor</label>
+                  <label><input type="checkbox" name="categoria" value="outra"> Todas</label>
+                </div>
+                <input type="text" id="busca" placeholder="Digite sua busca">
+              </div>
+              <div id="resultados">
+                <!-- Os resultados da busca serão exibidos aqui -->
+              </div>
+              
+        </section>
+
+    </main>
+
+    <script src="./script-projetos.js"></script>
 </body>
 </html>

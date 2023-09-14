@@ -1,0 +1,26 @@
+
+/* css dos filtros  */
+#filtro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#categorias {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+/* resto */
+
+#projetos-projetos {
+    padding-top: 100px;
+}
