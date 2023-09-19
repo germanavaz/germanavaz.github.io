@@ -30,25 +30,25 @@ const listaResultados = [
   },
   {
     titulo: 'Agência de Sites',
-    categoria: 'elementor',
+    categoria: 'wordpress',
     imagem: './imagens/projetos/projetos-mobile/studio-mobile.png',
     link: 'https://germanavaz.com.br/'
   },
   {
     titulo: 'Inova Nutrição',
-    categoria: 'elementor',
+    categoria: 'wordpress',
     imagem: './imagens/projetos/projetos-mobile/nutricao-mobile.png',
     link: 'https://germanavaz.com.br/inovarenutricao/'
   },
   {
     titulo: 'App Exercícios',
-    categoria: 'elementor',
+    categoria: 'wordpress',
     imagem: './imagens/projetos/projetos-mobile/exercicios-mobile.png',
     link: 'https://germanavaz.com.br/5minutos/'
   },
   {
     titulo: 'App Financias',
-    categoria: 'elementor',
+    categoria: 'wordpress',
     imagem: './imagens/projetos/projetos-mobile/finans-mobile.png',
     link: 'https://germanavaz.com.br/finans/'
   },
