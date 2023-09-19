@@ -5,34 +5,52 @@ const resultados = document.getElementById('resultados');
 // Exemplo de lista de resultados (você pode substituir isso com seus próprios dados)
 const listaResultados = [
   {
-    titulo: 'Exemplo HTML',
-    categoria: 'html',
-    imagem: './imagens/projetos/projetos-mobile/pokedex-mobile.png',
-    link: 'https://germanavaz.github.io/pokedex/'
-  },
-  {
-    titulo: 'Exemplo CSS',
-    categoria: 'css',
-    imagem: './imagens/projetos/projetos-mobile/pokedex-mobile.png',
-    link: 'https://germanavaz.github.io/pokedex/'
-  },
-  {
-    titulo: 'Exemplo JavaScript',
+    titulo: 'Pokedex',
     categoria: 'javascript',
     imagem: './imagens/projetos/projetos-mobile/pokedex-mobile.png',
     link: 'https://germanavaz.github.io/pokedex/'
   },
   {
-    titulo: 'Exemplo WordPress',
-    categoria: 'wordpress',
-    imagem: './imagens/projetos/projetos-mobile/pokedex-mobile.png',
-    link: 'https://germanavaz.github.io/pokedex/'
+    titulo: 'Link Tree',
+    categoria: 'javascript',
+    imagem: './imagens/projetos/projetos-mobile/links-mobile.png',
+    link: 'https://germanavaz.github.io/links-project/'
   },
   {
-    titulo: 'Exemplo Elementor',
+    titulo: 'ODS - ONU',
+    categoria: 'html',
+    imagem: './imagens/projetos/projetos-mobile/ods-mobile.png',
+    link: 'https://germanavaz.github.io/ods-onu/'
+  },
+  {
+    titulo: 'Loja Virtual',
+    categoria: 'javascript',
+    imagem: './imagens/projetos/projetos-mobile/market-mobile.png',
+    link: 'https://germanavaz.github.io/market/'
+  },
+  {
+    titulo: 'Agência de Sites',
     categoria: 'elementor',
-    imagem: './imagens/projetos/projetos-mobile/pokedex-mobile.png',
-    link: 'https://germanavaz.github.io/pokedex/'
+    imagem: './imagens/projetos/projetos-mobile/studio-mobile.png',
+    link: 'https://germanavaz.com.br/'
+  },
+  {
+    titulo: 'Inova Nutrição',
+    categoria: 'elementor',
+    imagem: './imagens/projetos/projetos-mobile/nutricao-mobile.png',
+    link: 'https://germanavaz.com.br/inovarenutricao/'
+  },
+  {
+    titulo: 'App Exercícios',
+    categoria: 'elementor',
+    imagem: './imagens/projetos/projetos-mobile/exercicios-mobile.png',
+    link: 'https://germanavaz.com.br/5minutos/'
+  },
+  {
+    titulo: 'App Financias',
+    categoria: 'elementor',
+    imagem: './imagens/projetos/projetos-mobile/finans-mobile.png',
+    link: 'https://germanavaz.com.br/finans/'
   },
   
 ];
