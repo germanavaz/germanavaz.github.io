@@ -42,6 +42,7 @@
 
 #menu a:hover {
     background: var(--bg-button-color-hover);
+    border-radius: 2rem;
 }
 
 #btn-mobile {
