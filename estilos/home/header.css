@@ -16,6 +16,16 @@
     z-index: 1;
 }
 
+#header img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+#nav {
+    display: flex;
+}
+
 #menu {
     display: flex;
     list-style: none;
@@ -107,6 +117,12 @@ Grandes telas: acima de 1200px
         margin-top: 5px;
         transition: .3s;
         position: relative;
+    }
+
+    #nav {
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 1.5rem;
     }
 
     #nav.active #hamburguer {
