@@ -7,49 +7,57 @@ const listaResultados = [
     titulo: 'Pokedex',
     categoria: 'javascript',
     imagem: './imagens/projetos/projetos-mobile/pokedex-mobile.png',
-    link: 'https://germanavaz.github.io/pokedex/'
+    link: 'https://germanavaz.github.io/pokedex/', 
+    resumo: 'Projeto consumindo a Poke API, listando todos os pokemons da lista com um carregamento assincrono. Cada card de cada pokemon é clicavel para exibir mais informações. Trabalho realizado para ser entregue no bootcamp da DIO.'
   },
   {
     titulo: 'Link Tree',
     categoria: 'javascript',
     imagem: './imagens/projetos/projetos-mobile/links-mobile.png',
-    link: 'https://germanavaz.github.io/links-project/'
+    link: 'https://germanavaz.github.io/links-project/', 
+    resumo: 'Site desenvolvido para armazenar e divulgar links de redes sociais, com o mecanismo de dark e light mode. Projeto realizado para entrega no curso da Rocketseat.'
   },
   {
     titulo: 'ODS - ONU',
     categoria: 'html',
     imagem: './imagens/projetos/projetos-mobile/ods-mobile.png',
-    link: 'https://germanavaz.github.io/ods-onu/'
+    link: 'https://germanavaz.github.io/ods-onu/', 
+    resumo: 'Landing Page abordando o 17º Objetivo de Desenvolvimento Sustentável da ONU. Realizado para promover e conscientizar sobre a vida terrestre. Projeto feito durante o bootcamp Elas na Tech.'
   },
   {
     titulo: 'Loja Virtual',
     categoria: 'javascript',
     imagem: './imagens/projetos/projetos-mobile/market-mobile.png',
-    link: 'https://germanavaz.github.io/market/'
+    link: 'https://germanavaz.github.io/market/',
+    resumo: 'Página para um e-commerce com sistema de adicionar ao carrinho, mexer nas quantidades e atualização do preço total em tempo real. Projeto realizado durante a semana do Javascript da Hashtag Treinamentos.'
   },
   {
     titulo: 'Agência de Sites',
     categoria: 'wordpress',
     imagem: './imagens/projetos/projetos-mobile/studio-mobile.png',
-    link: 'https://germanavaz.com.br/'
+    link: 'https://germanavaz.com.br/', 
+    resumo: 'Landing Page para minha agência de criação de sites.'
   },
   {
     titulo: 'Inova Nutrição',
     categoria: 'wordpress',
     imagem: './imagens/projetos/projetos-mobile/nutricao-mobile.png',
-    link: 'https://germanavaz.com.br/inovarenutricao/'
+    link: 'https://germanavaz.com.br/inovarenutricao/', 
+    resumo: 'Landing Page para uma empresa de nutricionistas.'
   },
   {
     titulo: 'App Exercícios',
     categoria: 'wordpress',
     imagem: './imagens/projetos/projetos-mobile/exercicios-mobile.png',
-    link: 'https://germanavaz.com.br/5minutos/'
+    link: 'https://germanavaz.com.br/5minutos/', 
+    resumo: 'Landing Page para um aplicativo de exercícios.'
   },
   {
-    titulo: 'App Financias',
+    titulo: 'App Finans',
     categoria: 'wordpress',
     imagem: './imagens/projetos/projetos-mobile/finans-mobile.png',
-    link: 'https://germanavaz.com.br/finans/'
+    link: 'https://germanavaz.com.br/finans/', 
+    resumo: 'Landing Page para o aplicativo Finans'
   },
   
 ];
@@ -60,12 +68,15 @@ function exibirTodosResultados() {
   listaResultados.forEach(resultado => {
     const divResultado = document.createElement('div');
     divResultado.innerHTML = `
-    <div class="projeto-cadaprojeto">
-    <h3>${resultado.titulo}</h3>
-    <a href="${resultado.link}" target="_blank">
-      <img src="${resultado.imagem}" alt="${resultado.titulo}" width="100">
-    </a></div>
-    `;
+    <div class="projeto-cadaprojeto projeto">
+    <a href="${resultado.link}" target="_blank" class="img-projeto">
+                    <img src="${resultado.imagem}" alt="" width="100">
+                </a>
+                <div class="descricao-projeto">
+                    <h4>${resultado.titulo}</h4>
+                    <p>${resultado.resumo}</p>
+                </div>
+`;
     resultados.appendChild(divResultado);
   });
 }
@@ -95,12 +106,15 @@ function filtrarResultados() {
     ) {
       const divResultado = document.createElement('div');
       divResultado.innerHTML = `
-      <div class="projeto-cadaprojeto">
-        <h3>${resultado.titulo}</h3>
-        <a href="${resultado.link}" target="_blank">
-          <img src="${resultado.imagem}" alt="${resultado.titulo}" width="100">
-        </a> </div>
-      `;
+      <div class="projeto-cadaprojeto projeto">
+      <a href="${resultado.link}" target="_blank" class="img-projeto">
+                      <img src="${resultado.imagem}" alt="" width="100">
+                  </a>
+                  <div class="descricao-projeto">
+                      <h4>${resultado.titulo}</h4>
+                      <p>${resultado.resumo}</p>
+                  </div>
+  `;
       resultados.appendChild(divResultado);
     }
   });
