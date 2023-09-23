@@ -1,8 +1,7 @@
-/// Selecionar os elementos HTML
 const categorias = document.querySelectorAll('input[name="categoria"]');
 const resultados = document.getElementById('resultados');
 
-// Exemplo de lista de resultados (você pode substituir isso com seus próprios dados)
+
 const listaResultados = [
   {
     titulo: 'Pokedex',
@@ -71,9 +70,7 @@ function exibirTodosResultados() {
   });
 }
 
-// Restante do código permanece o mesmo
-
-// Inicialmente, exiba todos os resultados
+// exiba todos os resultados
 exibirTodosResultados();
 
 // Adicionar um evento de clique a cada categoria
@@ -100,7 +97,6 @@ function filtrarResultados() {
       divResultado.innerHTML = `
       <div class="projeto-cadaprojeto">
         <h3>${resultado.titulo}</h3>
-        <p>Categoria: ${resultado.categoria}</p>
         <a href="${resultado.link}" target="_blank">
           <img src="${resultado.imagem}" alt="${resultado.titulo}" width="100">
         </a> </div>
