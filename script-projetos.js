@@ -72,7 +72,7 @@ function exibirTodosResultados() {
     <a href="${resultado.link}" target="_blank" class="img-projeto">
                     <img src="${resultado.imagem}" alt="" width="100">
                 </a>
-                <div class="descricao-projeto">
+                <div class="descricao-projeto-proj">
                     <h4>${resultado.titulo}</h4>
                     <p>${resultado.resumo}</p>
                 </div>
