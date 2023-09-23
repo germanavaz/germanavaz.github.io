@@ -3,32 +3,19 @@
 main #contato {
   padding-bottom: 50px; 
   font-size: 1.2rem;
-}
-
-.contatos {
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
-  gap: 30px;
-  padding: 1rem;
-  
 }
 
-.contatos div {
-  display: flex;
-  gap: 1rem;
-
+#contato a {
+  display: inline-block;
+  background-color: var(--bg-button-color);
+  border: 1px solid var(--button-border-color);
+  padding: 10px 20px;
+  margin-bottom: 20px ;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 
-
-
-.contatos a:hover {
-  color: var(--bg-button-color-hover);
-}
-
-@media (max-width: 690px) {
-  .contatos {
-    flex-direction: column;
-  }
-  
+#contato a:hover {
+  background-color: var(--bg-button-color-hover);
 }

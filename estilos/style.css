@@ -16,5 +16,8 @@
 
 
 /* Projetos */
-@import './projetos/projetos.css'
+@import './projetos/projetos.css';
+
+/* Contato */
+@import './contato/pag-contato.css';
 

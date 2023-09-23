@@ -1,0 +1,43 @@
+#contato-contato {
+    padding-top: 100px;
+}
+
+#contato-contato h2 {
+    margin: 0;
+}
+
+#contato-contato form {
+    padding: 1.5rem 1rem;
+}
+
+#contato-contato input {
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+#message {
+    height: 100px;
+}
+
+#contato-contato button {
+    background-color: var(--bg-button-color);
+    border: none;
+    width: 100px;
+    padding: .5rem;
+    border-radius: 10px;
+
+}
+
+#contato-contato button:hover {
+    background-color: var(--bg-button-color-hover);
+}
+
+#footer-contato {
+    padding: 20px 0px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    justify-content: center;
+}

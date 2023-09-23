@@ -57,8 +57,18 @@ label {
     transform: scale(1.05);
 }
 
+#footer-projetos {
+    padding: 20px 0px;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    justify-content: center;
+}
 
-
+.contato-projetos {
+    margin-bottom: 50px;
+}
 
 
 @media (max-width: 500px) {
