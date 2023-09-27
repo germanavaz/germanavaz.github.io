@@ -92,6 +92,7 @@ label {
 
     .projeto-cadaprojeto {
         flex-direction: column;
+        align-items: center;
     }
     #categorias {
         padding: 0 1rem;
