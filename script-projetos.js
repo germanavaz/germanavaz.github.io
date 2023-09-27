@@ -59,6 +59,13 @@ const listaResultados = [
     link: 'https://germanavaz.com.br/finans/', 
     resumo: 'Landing Page para o aplicativo Finans'
   },
+  {
+    titulo: 'Cardápio',
+    categoria: 'html',
+    imagem: './imagens/projetos/projetos-mobile/cardapio-mobile.png',
+    link: 'https://germanavaz.github.io/cardapio/', 
+    resumo: 'Projeto feito durante o bootcamp Elas na Tech. Onde simula um cardápio online de um restaurante.'
+  },
   
 ];
 
