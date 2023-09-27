@@ -75,6 +75,7 @@ function exibirTodosResultados() {
                 <div class="descricao-projeto-proj">
                     <h4>${resultado.titulo}</h4>
                     <p>${resultado.resumo}</p>
+                    <p id="tag-a-projetos"><a href="${resultado.link}" target="_blank" rel="noopener noreferrer">Ver projeto <ion-icon name="open-outline"></ion-icon></a></p>
                 </div>
 `;
     resultados.appendChild(divResultado);
