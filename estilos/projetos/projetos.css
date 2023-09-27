@@ -92,4 +92,13 @@ label {
     .busca {
         display: none;
     }
+
+    .descricao-projeto-proj {
+        width: 100%;
+    }
+    
+    .descricao-projeto-proj p {
+        padding-top: 15px;
+
+    }
 }
