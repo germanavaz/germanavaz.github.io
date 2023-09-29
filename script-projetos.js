@@ -66,6 +66,13 @@ const listaResultados = [
     link: 'https://germanavaz.github.io/cardapio/', 
     resumo: 'Projeto feito durante o bootcamp Elas na Tech. Onde simula um cardápio online de um restaurante.'
   },
+  {
+    titulo: 'Formulário',
+    categoria: 'html',
+    imagem: './imagens/projetos/projetos-mobile/formulario.png',
+    link: 'https://germanavaz.github.io/formulario-bootstrap/', 
+    resumo: 'Projeto feito durante o bootcamp Elas na Tech. Onde é feito um formulário estilo sign up com a tecnologia do bootstrap.'
+  },
   
 ];
 
