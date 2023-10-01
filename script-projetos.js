@@ -71,7 +71,7 @@ const listaResultados = [
     categoria: 'html',
     imagem: './imagens/projetos/projetos-mobile/formulario.png',
     link: 'https://germanavaz.github.io/formulario-bootstrap/', 
-    resumo: 'Projeto feito durante o bootcamp Elas na Tech. Onde é feito um formulário estilo sign up com a tecnologia do bootstrap.'
+    resumo: 'Formulário estilo sign up feito com a tecnologia do bootstrap. Projeto realizado durante o bootcamp Elas na Tech. '
   },
   
 ];
