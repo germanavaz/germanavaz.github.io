@@ -16,16 +16,18 @@
     z-index: 1;
 }
 
-#header img {
-    max-width: 150px;
-    max-height: 150px;
-    object-fit: contain;
-}
 
 #nav {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+#nav p {
+    font-family: 'Space Mono', sans-serif;
+    font-size: 1.5rem;
+    color: var(--highlight-text-color);
+    font-weight: 600;
 }
 
 #menu {
@@ -38,6 +40,7 @@
     display: block;
     padding: 1rem;
     text-decoration: none;
+    font-weight: 600;
 }
 
 #menu a:hover {
