@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 footer {
-    background-color: var(--bg-button-color);
+    background-color: var(--bg-header);
     padding: 30px;
     display: flex;
     justify-content: space-between;
