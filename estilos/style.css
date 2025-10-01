@@ -3,22 +3,5 @@
 /* Global */
 @import './global/reset.css';
 @import './global/componentes.css';
-@import './global/modebutton.css';
 
-
-/* Home */
-@import './home/header.css'; /* menus */
-@import './home/introducao.css';
-@import './home/projetos.css';
-@import './home/sobre.css';
-@import './home/contato.css';
-@import './home/creditos.css';
-@import './home/footer.css';
-
-
-/* Projetos */
-@import './projetos/projetos.css';
-
-/* Contato */
-@import './contato/pag-contato.css';
 
