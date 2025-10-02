@@ -1,49 +1,3 @@
-@charset "UTF-8";
-/* Global */
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-* {
-  margin: 0;
-  color: #d3d3d3;
-}
-
-body,
-html {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-img,
-video {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
-
-/* @import './global/componentes.css'; */
 /* header */
 header {
   display: flex;
@@ -55,6 +9,7 @@ header {
   margin: 10px;
   position: fixed;
   min-width: 95vw;
+
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.21);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -65,13 +20,19 @@ header {
 
 header li {
   display: inline;
+
+  a:hover {
+    
+  }
 }
+
 header li:hover {
   color: #383838;
   transition: 0.3s;
 }
 
 /* main */
+
 /* Banner */
 #banner {
   position: relative;
@@ -95,8 +56,7 @@ header li:hover {
   height: auto;
   z-index: -1;
   transform: translate(-50%, -50%);
-  -o-object-fit: cover;
-     object-fit: cover; /* cobre toda a div */
+  object-fit: cover; /* cobre toda a div */
 }
 
 /* Conteúdo em cima do vídeo */
@@ -104,4 +64,4 @@ header li:hover {
   position: relative;
   z-index: 1;
   padding: 20px;
-}/*# sourceMappingURL=style.css.map */
+}

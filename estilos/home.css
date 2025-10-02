@@ -1,29 +1,32 @@
+@charset "UTF-8";
 /* header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
-  font: #000;
+  font: #fff;
   padding: 10px;
   margin: 10px;
   position: fixed;
   min-width: 95vw;
-
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.21);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.8px);
   -webkit-backdrop-filter: blur(6.8px);
-  border: 1px solid rgba(255, 255, 255, 0.57);
+  border: 0.5px solid rgba(255, 255, 255, 0.57);
 }
 
 header li {
   display: inline;
 }
+header li:hover {
+  color: #383838;
+  transition: 0.3s;
+}
 
 /* main */
-
 /* Banner */
 #banner {
   position: relative;
@@ -47,13 +50,13 @@ header li {
   height: auto;
   z-index: -1;
   transform: translate(-50%, -50%);
-  object-fit: cover; /* cobre toda a div */
+  -o-object-fit: cover;
+     object-fit: cover; /* cobre toda a div */
 }
 
 /* Conteúdo em cima do vídeo */
 .banner-content {
   position: relative;
   z-index: 1;
-  color: #fff;
   padding: 20px;
-}
+}/*# sourceMappingURL=home.css.map */
