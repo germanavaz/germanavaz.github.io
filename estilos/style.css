@@ -2,6 +2,8 @@
 
 /* Global */
 @import './global/reset.css';
-@import './global/componentes.css';
+/* @import './global/componentes.css'; */
 
+
+@import './home.css';
 
