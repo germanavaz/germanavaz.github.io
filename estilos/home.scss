@@ -4,11 +4,13 @@ header {
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
-  font: #fff;
+  // color: #9b9b9b;
   padding: 10px;
   margin: 10px;
   position: fixed;
   min-width: 95vw;
+  z-index: 2;
+  text-transform: uppercase;
 
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.21);
@@ -18,26 +20,29 @@ header {
   border: 0.5px solid rgba(255, 255, 255, 0.57);
 }
 
-header li {
-  display: inline;
-
-  a:hover {
-    
-  }
+header ul {
+  display: flex;
+  gap: 20px;
 }
 
-header li:hover {
-  color: #383838;
-  transition: 0.3s;
+header li {
+  display: inline;
+}
+
+header a:hover {
+  cursor: pointer;
+  color: #9b9b9b;
+  transition: .8s;
+  
 }
 
 /* main */
 
 /* Banner */
 #banner {
-  position: relative;
+  position:sticky;
   width: 100%;
-  height: 98vh; /* ocupa a tela toda */
+  height: 98vh; 
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -64,4 +69,5 @@ header li:hover {
   position: relative;
   z-index: 1;
   padding: 20px;
+  color: #000;
 }
