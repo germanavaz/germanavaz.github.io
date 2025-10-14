@@ -1,4 +1,4 @@
-/* header */
+/* header = menu */
 header {
   display: flex;
   justify-content: space-between;
@@ -70,4 +70,85 @@ header a:hover {
   z-index: 1;
   padding: 20px;
   color: #000;
+}
+
+// Seção sobre 
+
+.sobre {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    border-radius: 50%;
+    width: 20vw;
+    margin: 20px;
+  }
+
+  h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .texto {
+    width: 40vw;
+  }
+}
+
+// Seção projetos
+
+#projetos {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+
+  .projetos-container {
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .projeto {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+
+    img {
+      width: 100%;
+      // border-radius: 50px;
+    }
+
+    h3 {
+      margin-top: 15px;
+      font-size: 1.5rem;
+    }
+
+    p {
+      margin: 10px 0;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      color: darkblue;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }
