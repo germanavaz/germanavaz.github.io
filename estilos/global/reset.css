@@ -22,34 +22,6 @@ p {
   margin: 0;
 }
 
-h1 {
-  font-family: "Krona One", sans-serif;
-  font-weight: 400;
-  font-size: 4rem;
-  margin-bottom: 1rem;
-}
-
-h2 {
-  font-family: "Krona One", sans-serif;
-  font-weight: 400;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-h3 {
-  font-family: "Krona One", sans-serif;
-  font-weight: 400;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-p {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -65,10 +37,5 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  /* border-radius: 6px; */
-} /*# sourceMappingURL=reset.css.map */
-
-.section {
-  padding: 5rem 10rem;
-  height: 70vh;
-}
+  border-radius: 6px;
+}/*# sourceMappingURL=reset.css.map */
