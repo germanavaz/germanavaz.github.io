@@ -8,9 +8,14 @@ body,
 html {
   margin: 0px;
   padding: 0px;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+.section {
+  padding: 3rem 5rem;
+  min-height: 75vh;
 }
 
 h1,
@@ -20,6 +25,23 @@ h4,
 h5,
 p {
   margin: 0;
+}
+
+h1 {
+  font-family: "Krona One", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Krona One", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
 }
 
 a {
@@ -38,4 +60,4 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
-}/*# sourceMappingURL=reset.css.map */
+} /*# sourceMappingURL=reset.css.map */
