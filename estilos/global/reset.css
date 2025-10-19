@@ -38,6 +38,7 @@ p {
   margin: 0;
 }
 
+
 a {
   text-decoration: none;
   color: inherit;
@@ -55,3 +56,7 @@ img {
   height: auto;
   border-radius: 6px;
 } /*# sourceMappingURL=reset.css.map */
+
+.section {
+  padding: 3rem;
+}

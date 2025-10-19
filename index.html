@@ -17,83 +17,144 @@
       <a class="logo">@germana.tech</a>
       <nav>
         <ul>
-          <li><a href="#stacks">Stacks</a></li>
           <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#stacks">Habilidades</a></li>
           <li><a href="#sobre">Sobre</a></li>
         </ul>
       </nav>
       <button class="btn-contato">Contato</button>
     </header>
     <main>
-      <div id="banner">
+      <section id="banner">
         <!-- vídeo de fundo -->
         <video autoplay muted loop playsinline id="bg-video">
           <source src="./imagens/background-banner.mp4" type="video/mp4" />
           Seu navegador não suporta vídeos HTML5.
         </video>
-
         <!-- conteúdo por cima do vídeo -->
         <div class="banner">
-            <div class="hero-content">
-              <p class="hero-pre">hello world!</p>
-              <h1>&lt;Germana Vaz/&gt;</h1>
-              <h2 class="hero-sub">Desenvolvedora Front-end</h2>
-              <div class="hero-buttons">
+          <section class="hero-content">
+            <p class="hero-pre">hello world!</p>
+            <h1>&lt;Germana Vaz/&gt;</h1>
+            <h2 class="hero-sub">Desenvolvedora Front-end</h2>
+            <div class="hero-buttons">
               <a href="#projetos" class="btn-primary">Ver Projetos →</a>
               <a href="#contato" class="btn-secondary">Entre em Contato</a>
-        </div>
+            </div>
 
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/germana-vaz/" target="_blank"><img src="./imagens/linkedin.png" alt="Icone Linkedin"></a>
-          <a href="https://github.com/germanavaz" target="_blank"><img src="./imagens/github.png" alt="Icone Github"></a>
-          <a href="https://www.instagram.com/germana.tech" target="_blank"><img src="./imagens/instagram.png" alt="Icone Instagram"></a>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/germana-vaz/" target="_blank"
+                ><img src="./imagens/linkedin.png" alt="Icone Linkedin"
+              /></a>
+              <a href="https://github.com/germanavaz" target="_blank"
+                ><img src="./imagens/github.png" alt="Icone Github"
+              /></a>
+              <a href="https://www.instagram.com/germana.tech" target="_blank"
+                ><img src="./imagens/instagram.png" alt="Icone Instagram"
+              /></a>
+            </div>
+          </section>
         </div>
-      </div>
-        </div>
-      <div class="section" id="stacks"></div>
+      </section>
 
-      <div class="section" id="projetos">
-        <h2>Projetos</h2>
+      <section class="section" id="projetos">
+        <h2>&lt;Projetos&gt;</h2>
+        <p class="proj-sub">
+          Alguns dos meus trabalhos mais recentes que demonstram minhas
+          habilidades e experiência
+        </p>
+
         <div class="projetos-container">
-          <div class="projeto">
-            <img
-              src="https://private-user-images.githubusercontent.com/108768134/500680595-e524cb72-d474-463a-a83f-c89258ccdd76.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjA0ODUzNjEsIm5iZiI6MTc2MDQ4NTA2MSwicGF0aCI6Ii8xMDg3NjgxMzQvNTAwNjgwNTk1LWU1MjRjYjcyLWQ0NzQtNDYzYS1hODNmLWM4OTI1OGNjZGQ3Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxNFQyMzM3NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMTA3YmYxOTEyNDYxNjNmOGMwYzViMTE2N2ZiYTY1ODRkN2MwNGE4N2I0NDZmZjYyY2Q5Nzc2Y2M4NTE0MGZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.0CfanKZjrHxAdRPsegMZkHegU7y_8T4Rqg_8-KfHguA"
-              alt="Projeto 1"
-            />
+          <!-- CARD -->
+          <div class="projeto-card">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><img src="./imagens/projetos/cardapio.png" alt="Projeto 1"
+            /></a>
             <h3>Projeto 1</h3>
             <p>
               Descrição breve do projeto 1. Tecnologias usadas: HTML, CSS,
               JavaScript.
             </p>
-            <a href="#" target="_blank">Ver Projeto</a>
+            <div class="tags">
+              <span>React</span><span>TypeScript</span><span>Tailwind</span
+              ><span>Stripe</span>
+            </div>
+            <div class="botoes">
+              <button class="btn-proj-primary">
+                <a href="" target="_blank" rel="noopener noreferrer"
+                  >💻 Código</a
+                >
+              </button>
+              <button href="#" class="btn-proj-secondary">
+                <a href="" target="_blank" rel="noopener noreferrer">🔗 Demo</a>
+              </button>
+            </div>
           </div>
-          <div class="projeto">
-            <img
-              src="https://private-user-images.githubusercontent.com/108768134/500680595-e524cb72-d474-463a-a83f-c89258ccdd76.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjA0ODUzNjEsIm5iZiI6MTc2MDQ4NTA2MSwicGF0aCI6Ii8xMDg3NjgxMzQvNTAwNjgwNTk1LWU1MjRjYjcyLWQ0NzQtNDYzYS1hODNmLWM4OTI1OGNjZGQ3Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxNFQyMzM3NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMTA3YmYxOTEyNDYxNjNmOGMwYzViMTE2N2ZiYTY1ODRkN2MwNGE4N2I0NDZmZjYyY2Q5Nzc2Y2M4NTE0MGZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.0CfanKZjrHxAdRPsegMZkHegU7y_8T4Rqg_8-KfHguA"
-              alt="Projeto 2"
-            />
-            <h3>Projeto 2</h3>
+
+          <!-- CARD -->
+          <div class="projeto-card">
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              ><img src="./imagens/projetos/cardapio.png" alt="Projeto 1"
+            /></a>
+            <h3>Projeto 1</h3>
             <p>
-              Descrição breve do projeto 2. Tecnologias usadas: React, Node.js,
-              MongoDB.
+              Descrição breve do projeto 1. Tecnologias usadas: HTML, CSS,
+              JavaScript.
             </p>
-            <a href="#" target="_blank">Ver Projeto</a>
-          </div>
-          <div class="projeto">
-            <img
-              src="https://private-user-images.githubusercontent.com/108768134/500680595-e524cb72-d474-463a-a83f-c89258ccdd76.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjA0ODUzNjEsIm5iZiI6MTc2MDQ4NTA2MSwicGF0aCI6Ii8xMDg3NjgxMzQvNTAwNjgwNTk1LWU1MjRjYjcyLWQ0NzQtNDYzYS1hODNmLWM4OTI1OGNjZGQ3Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxNFQyMzM3NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMTA3YmYxOTEyNDYxNjNmOGMwYzViMTE2N2ZiYTY1ODRkN2MwNGE4N2I0NDZmZjYyY2Q5Nzc2Y2M4NTE0MGZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.0CfanKZjrHxAdRPsegMZkHegU7y_8T4Rqg_8-KfHguA"
-              alt="Projeto 3"
-            />
-            <h3>Projeto 3</h3>
-            <p>
-              Descrição breve do projeto 3. Tecnologias usadas: Vue.js,
-              Firebase, Tailwind CSS.
-            </p>
-            <a href="#" target="_blank">Ver Projeto</a>
+            <div class="tags">
+              <span>React</span><span>TypeScript</span><span>Tailwind</span
+              ><span>Stripe</span>
+            </div>
+            <div class="botoes">
+              <button class="btn-proj-primary">
+                <a href="" target="_blank" rel="noopener noreferrer"
+                  >💻 Código</a
+                >
+              </button>
+              <button href="#" class="btn-proj-secondary">
+                <a href="" target="_blank" rel="noopener noreferrer">🔗 Demo</a>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="sobre section" id="sobre">
+      </section>
+
+      <section class="stacks section" id="stacks">
+        <h2>&lt;Principais Habilidades&gt;</h2>
+        <p class="stacks-sub">
+          Tecnologias e ferramentas que domino para criar soluções web de alta
+          qualidade
+        </p>
+
+        <div class="stack-grid">
+          <div class="stack-card">
+            <h3>React & TypeScript</h3>
+            <p>Desenvolvimento de interfaces modernas e type-safe</p>
+          </div>
+          <div class="stack-card">
+            <h3>Next.js</h3>
+            <p>SSR, SSG e otimização avançada de performance</p>
+          </div>
+          <div class="stack-card">
+            <h3>Tailwind CSS</h3>
+            <p>Estilização rápida e responsiva com utility-first</p>
+          </div>
+          <div class="stack-card">
+            <h3>REST & GraphQL</h3>
+            <p>Integração de APIs e gerenciamento de estado</p>
+          </div>
+          <div class="stack-card">
+            <h3>Performance</h3>
+            <p>Otimização de bundle size e Core Web Vitals</p>
+          </div>
+          <div class="stack-card">
+            <h3>Design Responsivo</h3>
+            <p>Mobile-first e cross-browser compatibility</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre section" id="sobre">
         <h2>Sobre mim</h2>
         <img
           src="https://media.licdn.com/dms/image/v2/D4D03AQGLtyZkyN_oiA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709860982570?e=1763596800&v=beta&t=gidIli7rN9ZEb8eEkx-jW1s6byKPZ-frsgin_USIE7U"
@@ -114,7 +175,7 @@
             novas culturas e lugares.
           </p>
         </div>
-      </div>
+      </section>
     </main>
     <footer></footer>
     <script src="./script.js"></script>
