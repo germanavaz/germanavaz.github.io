@@ -7,7 +7,7 @@ header {
   position: fixed;
   width: 100vw;
   z-index: 2;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   margin: 0;
   overflow: hidden;
 
@@ -39,6 +39,7 @@ header {
 
 header ul {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -60,15 +61,15 @@ header a:hover {
   background: transparent;
   padding: 10px 30px;
   border-radius: 30px;
-  border: none;
   font-size: 1rem;
-  font-weight: 600;
+  // font-weight: 600;
   transition: all 0.5s ease;
   cursor: pointer;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   // text-transform: uppercase;
 
   border: 1px solid #fff;
-  color: #fff;
 
   &:hover {
     background: linear-gradient(90deg, rgba(77, 162, 255, .4), rgba(176, 80, 255, .4));
