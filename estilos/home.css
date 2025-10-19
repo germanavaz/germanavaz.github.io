@@ -20,7 +20,12 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #9271f4;
+  background-image: linear-gradient(90deg, #4da2ff, #b050ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: none;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 .logo img {
@@ -122,20 +127,27 @@ header a:hover {
   transition: all 0.3s ease;
 }
 .hero-content .btn-primary {
-  background: #fff;
-  color: #000;
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
 }
 .hero-content .btn-primary:hover {
-  background: linear-gradient(90deg, #4da2ff, #b050ff);
+  background: linear-gradient(90deg, rgba(77, 162, 255, 0.3), rgba(176, 80, 255, 0.3));
   transition: 0.8s;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
 }
 .hero-content .btn-secondary {
   border: 2px solid #fff;
   color: #fff;
 }
 .hero-content .btn-secondary:hover {
-  background: linear-gradient(90deg, #4da2ff, #b050ff);
-  transition: 0.8s;
+  background: linear-gradient(90deg, rgba(77, 162, 255, 0.3), rgba(176, 80, 255, 0.3));
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
 }
 .hero-content .social-icons {
   margin-top: 40px;
@@ -151,7 +163,7 @@ header a:hover {
   width: 50px;
 }
 .hero-content .social-icons img:hover {
-  background: linear-gradient(90deg, #4da2ff, #b050ff);
+  background: linear-gradient(90deg, rgba(77, 162, 255, 0.8), rgba(176, 80, 255, 0.8));
   transition: 1s;
 }
 
@@ -183,7 +195,6 @@ header a:hover {
   padding: 50px 20px;
 }
 #projetos .projetos-container {
-  border: solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

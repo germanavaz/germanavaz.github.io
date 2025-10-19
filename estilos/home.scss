@@ -21,7 +21,13 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #9271f4;
+  // color: #9271f4;
+  background-image: linear-gradient(90deg, #4da2ff, #b050ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: none;
+  font-size: 1.2rem;
   font-weight: bold;
 
   img {
@@ -131,13 +137,20 @@ header a:hover {
   }
 
   .btn-primary {
-    background: #fff;
-    color: #000;
+    // background: #fff;
+    // color: #000;
+    background: rgba(255, 255, 255, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
   }
 
   .btn-primary:hover {
-    background: linear-gradient(90deg, #4da2ff, #b050ff);
+    background: linear-gradient(90deg, rgba(77, 162, 255, .3), rgba(176, 80, 255, .3));
     transition: .8s;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
   }
 
   .btn-secondary {
@@ -146,8 +159,12 @@ header a:hover {
   }
 
   .btn-secondary:hover {
-    background: linear-gradient(90deg, #4da2ff, #b050ff);
-    transition: .8s;
+    // background: linear-gradient(90deg, #4da2ff, #b050ff);
+    // transition: .8s;
+    background: linear-gradient(90deg, rgba(77, 162, 255, .3), rgba(176, 80, 255, .3));
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
   }
 
   .social-icons {
@@ -165,7 +182,7 @@ header a:hover {
     }
 
     img:hover {
-      background: linear-gradient(90deg, #4da2ff, #b050ff);
+      background: linear-gradient(90deg, rgba(77, 162, 255, .8), rgba(176, 80, 255, .8));
       transition: 1s;
     }
   }
@@ -206,7 +223,7 @@ header a:hover {
   padding: 50px 20px;
 
   .projetos-container {
-    border: solid red;
+    // border: solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
