@@ -2,21 +2,29 @@
 /* header = menu */
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 10px;
+  padding: 20px 0;
   position: fixed;
-  min-width: 95vw;
+  width: 100vw;
   z-index: 2;
   text-transform: uppercase;
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.21);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(6.8px);
   -webkit-backdrop-filter: blur(6.8px);
-  border: 0.5px solid rgba(255, 255, 255, 0.57);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #9271f4;
+  font-weight: bold;
+}
+.logo img {
+  width: 40px;
 }
 
 header ul {
@@ -28,18 +36,37 @@ header li {
   display: inline;
 }
 
+header li a {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
 header a:hover {
   cursor: pointer;
-  color: #9b9b9b;
+  color: #B690F9;
   transition: 0.8s;
+}
+
+.btn-contato {
+  background: linear-gradient(90deg, #4da2ff, #b050ff);
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-contato:hover {
+  background: #9271f4;
+  cursor: pointer;
+  transition: 1s;
 }
 
 /* main */
 /* Banner */
-#banner {
+.banner {
   position: sticky;
-  width: 100%;
-  height: 98vh;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -52,22 +79,80 @@ header a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   width: auto;
   height: auto;
   z-index: -1;
   transform: translate(-50%, -50%);
   -o-object-fit: cover;
-     object-fit: cover; /* cobre toda a div */
+     object-fit: cover;
+  /* cobre toda a div */
 }
 
 /* Conteúdo em cima do vídeo */
-.banner-content {
+.hero-content {
   position: relative;
   z-index: 1;
-  padding: 20px;
   color: #000;
+  text-align: center;
+  padding: 120px 20px;
+}
+.hero-content h1 {
+  font-size: 5rem;
+}
+.hero-content .hero-pre {
+  margin: 20px auto;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+.hero-content .hero-buttons {
+  margin-top: 30px;
+}
+.hero-content .hero-sub {
+  margin-bottom: 5rem;
+}
+.hero-content .btn-primary,
+.hero-content .btn-secondary {
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.hero-content .btn-primary {
+  background: #fff;
+  color: #000;
+}
+.hero-content .btn-primary:hover {
+  background: linear-gradient(90deg, #4da2ff, #b050ff);
+  transition: 0.8s;
+}
+.hero-content .btn-secondary {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.hero-content .btn-secondary:hover {
+  background: linear-gradient(90deg, #4da2ff, #b050ff);
+  transition: 0.8s;
+}
+.hero-content .social-icons {
+  margin-top: 40px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.hero-content .social-icons img {
+  background-color: #fff;
+  padding: 0.1rem;
+  border-radius: 100%;
+  width: 50px;
+}
+.hero-content .social-icons img:hover {
+  background: linear-gradient(90deg, #4da2ff, #b050ff);
+  transition: 1s;
 }
 
 .sobre {

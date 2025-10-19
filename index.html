@@ -6,18 +6,23 @@
     <title>Germana Maria Vaz | Frontend Developer</title>
     <link rel="icon" href="" type="image/png" />
     <link rel="stylesheet" href="./estilos/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href=""><img src="" alt="" />Logo</a>
+      <a class="logo"><img src="./imagens/code.png" alt="" />Germana Vaz</a>
       <nav>
         <ul>
-          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#stacks">Stacks</a></li>
           <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#sobre">Sobre</a></li>
         </ul>
       </nav>
-      <a href="https://www.google.com/" target="_blank">ENG</a>
+      <button class="btn-contato">Contato</button>
     </header>
     <main>
       <div id="banner">
@@ -28,39 +33,26 @@
         </video>
 
         <!-- conteúdo por cima do vídeo -->
-        <div class="banner-content">
-          <h1>Frontend Developer</h1>
-          <h3>Creating Digital Experiences</h3>
-          <p>
-            Passionate frontend developer with 2+ experience crafting responsive
-            web applications using JavaScript, React and modern CSS frameworks.
-          </p>
-          <a href="#projetos">See my projects</a>
+        <div class="banner">
+            <div class="hero-content">
+              <p class="hero-pre">hello world!</p>
+              <h1>&lt;Germana Vaz/&gt;</h1>
+              <h2 class="hero-sub">Desenvolvedora Front-end</h2>
+              <div class="hero-buttons">
+              <a href="#projetos" class="btn-primary">Ver Projetos →</a>
+              <a href="#contato" class="btn-secondary">Entre em Contato</a>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/germana-vaz/" target="_blank"><img src="./imagens/linkedin.png" alt="Icone Linkedin"></a>
+          <a href="https://github.com/germanavaz" target="_blank"><img src="./imagens/github.png" alt="Icone Github"></a>
+          <a href="https://www.instagram.com/germana.tech" target="_blank"><img src="./imagens/instagram.png" alt="Icone Instagram"></a>
         </div>
       </div>
-      <div class="sobre section" id="sobre">
-        <h2>Sobre mim</h2>
-        <img
-          src="https://media.licdn.com/dms/image/v2/D4D03AQGLtyZkyN_oiA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709860982570?e=1763596800&v=beta&t=gidIli7rN9ZEb8eEkx-jW1s6byKPZ-frsgin_USIE7U"
-          alt=""
-        />
-        <div class="texto">
-          <p>
-            Olá! Meu nome é Germana Maria Vaz e sou uma desenvolvedora frontend
-            apaixonada por criar experiências digitais incríveis. Com mais de 2
-            anos de experiência, tenho trabalhado em diversos projetos que me
-            permitiram aprimorar minhas habilidades em
-            <strong>JavaScript, React e frameworks modernos de CSS</strong>.
-          </p>
-          <p>
-            Quando não estou codificando, gosto de fazer trabalhos manuais, como
-            bordado e crochê, gosto de ler livros de ficção científica e
-            fantasia, assistir a filmes e séries, e adoro viajar para conhecer
-            novas culturas e lugares.
-          </p>
         </div>
-      </div>
-      <div id="projetos" class="section">
+      <div class="section" id="stacks"></div>
+
+      <div class="section" id="projetos">
         <h2>Projetos</h2>
         <div class="projetos-container">
           <div class="projeto">
@@ -99,6 +91,28 @@
             </p>
             <a href="#" target="_blank">Ver Projeto</a>
           </div>
+        </div>
+      </div>
+      <div class="sobre section" id="sobre">
+        <h2>Sobre mim</h2>
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4D03AQGLtyZkyN_oiA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709860982570?e=1763596800&v=beta&t=gidIli7rN9ZEb8eEkx-jW1s6byKPZ-frsgin_USIE7U"
+          alt=""
+        />
+        <div class="texto">
+          <p>
+            Olá! Meu nome é Germana Maria Vaz e sou uma desenvolvedora frontend
+            apaixonada por criar experiências digitais incríveis. Com mais de 2
+            anos de experiência, tenho trabalhado em diversos projetos que me
+            permitiram aprimorar minhas habilidades em
+            <strong>JavaScript, React e frameworks modernos de CSS</strong>.
+          </p>
+          <p>
+            Quando não estou codificando, gosto de fazer trabalhos manuais, como
+            bordado e crochê, gosto de ler livros de ficção científica e
+            fantasia, assistir a filmes e séries, e adoro viajar para conhecer
+            novas culturas e lugares.
+          </p>
         </div>
       </div>
     </main>
