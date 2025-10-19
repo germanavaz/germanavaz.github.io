@@ -55,18 +55,24 @@ header a:hover {
 }
 
 .btn-contato {
-  background: linear-gradient(90deg, #4da2ff, #b050ff);
+  background: transparent;
   padding: 10px 30px;
   border-radius: 30px;
   border: none;
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: 600;
-  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  // text-transform: uppercase;
+
+  border: 1px solid #fff;
+  color: #fff;
 
   &:hover {
-    background: #9271f4;
-    cursor: pointer;
-    transition: 1s;
+    background: linear-gradient(90deg, rgba(77, 162, 255, .4), rgba(176, 80, 255, .4));
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
   }
 
 }
@@ -129,7 +135,7 @@ header a:hover {
   .btn-primary,
   .btn-secondary {
     padding: 12px 24px;
-    border-radius: 12px;
+    border-radius: 30px;
     font-weight: 600;
     text-decoration: none;
     margin: 5px;
@@ -154,13 +160,12 @@ header a:hover {
   }
 
   .btn-secondary {
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     color: #fff;
   }
 
   .btn-secondary:hover {
-    // background: linear-gradient(90deg, #4da2ff, #b050ff);
-    // transition: .8s;
+
     background: linear-gradient(90deg, rgba(77, 162, 255, .3), rgba(176, 80, 255, .3));
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(6.8px);
@@ -179,10 +184,11 @@ header a:hover {
       padding: .1rem;
       border-radius: 100%;
       width: 50px;
+      opacity: 0.7;
     }
 
     img:hover {
-      background: linear-gradient(90deg, rgba(77, 162, 255, .8), rgba(176, 80, 255, .8));
+      background: linear-gradient(90deg, rgba(77, 162, 255, .5), rgba(176, 80, 255, .5));
       transition: 1s;
     }
   }
