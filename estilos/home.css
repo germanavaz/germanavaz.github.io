@@ -9,6 +9,8 @@ header {
   width: 100vw;
   z-index: 2;
   text-transform: uppercase;
+  margin: 0;
+  overflow: hidden;
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.21);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
@@ -90,8 +92,7 @@ header a:hover {
   left: 50%;
   min-width: 100vw;
   min-height: 100vh;
-  width: auto;
-  height: auto;
+  width: 100vw;
   z-index: -1;
   transform: translate(-50%, -50%);
   -o-object-fit: cover;
