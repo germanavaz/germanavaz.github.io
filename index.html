@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Germana Maria Vaz | Frontend Developer</title>
-    <link rel="icon" href="" type="image/png" />
+    <link rel="icon" href="/imagens/logo.jpg" type="image/png" />
     <link rel="stylesheet" href="./estilos/style.css" />
 
     <link
@@ -20,46 +20,41 @@
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#stacks">Habilidades</a></li>
           <li><a href="#sobre">Sobre</a></li>
-          <button class="btn-contato"><a href="">Contato</a></button>
+          <li>
+            <a href="" class="botao btn-secondary btn-contato">Contato</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="banner">
-        <!-- vídeo de fundo -->
-        <video autoplay muted loop playsinline id="bg-video">
-          <source src="./imagens/background-banner.mp4" type="video/mp4" />
-          Seu navegador não suporta vídeos HTML5.
-        </video>
-        <!-- conteúdo por cima do vídeo -->
-        <div class="banner">
-          <section class="hero-content">
-            <p class="hero-pre">hello world!</p>
-            <h1>&lt;Germana Vaz/&gt;</h1>
-            <h2 class="hero-sub">Desenvolvedora Front-end</h2>
-            <div class="hero-buttons">
-              <a href="#projetos" class="btn-primary">Ver Projetos →</a>
-              <a href="#contato" class="btn-secondary">Entre em Contato</a>
-            </div>
+      <section id="banner" class="banner">
+        <div class="hero-content">
+          <p class="hero-pre">hello world!</p>
+          <h1>&lt;Germana Vaz/&gt;</h1>
+          <h2 class="hero-sub">Desenvolvedora Front-end</h2>
+          <div class="hero-buttons">
+            <a href="#projetos" class="botao btn-primary">Ver Projetos →</a>
 
-            <div class="social-icons">
-              <a href="https://www.linkedin.com/in/germana-vaz/" target="_blank"
-                ><img src="./imagens/linkedin.png" alt="Icone Linkedin"
-              /></a>
-              <a href="https://github.com/germanavaz" target="_blank"
-                ><img src="./imagens/github.png" alt="Icone Github"
-              /></a>
-              <a href="https://www.instagram.com/germana.tech" target="_blank"
-                ><img src="./imagens/instagram.png" alt="Icone Instagram"
-              /></a>
-            </div>
-          </section>
+            <a href="#contato" class="botao btn-secondary">Entre em Contato</a>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/germana-vaz/" target="_blank"
+              ><img src="./imagens/linkedin.png" alt="Icone Linkedin"
+            /></a>
+            <a href="https://github.com/germanavaz" target="_blank"
+              ><img src="./imagens/github.png" alt="Icone Github"
+            /></a>
+            <a href="https://www.instagram.com/germana.tech" target="_blank"
+              ><img src="./imagens/instagram.png" alt="Icone Instagram"
+            /></a>
+          </div>
         </div>
       </section>
 
       <section class="section" id="projetos">
-        <h2>&lt;Projetos&gt;</h2>
-        <p class="proj-sub">
+        <h2 class="title-section">&lt;Projetos&gt;</h2>
+        <p>
           Alguns dos meus trabalhos mais recentes que demonstram minhas
           habilidades e experiência
         </p>
@@ -80,12 +75,12 @@
               ><span>Stripe</span>
             </div>
             <div class="botoes">
-              <button class="btn-proj-primary">
+              <button class="botao btn-secondary">
                 <a href="" target="_blank" rel="noopener noreferrer"
                   >💻 Código</a
                 >
               </button>
-              <button href="#" class="btn-proj-secondary">
+              <button href="#" class="botao btn-primary">
                 <a href="" target="_blank" rel="noopener noreferrer">🔗 Demo</a>
               </button>
             </div>
@@ -120,7 +115,7 @@
       </section>
 
       <section class="stacks section" id="stacks">
-        <h2>&lt;Principais Habilidades&gt;</h2>
+        <h2 class="title-section">&lt;Principais Habilidades&gt;</h2>
         <p class="stacks-sub">
           Tecnologias e ferramentas que domino para criar soluções web de alta
           qualidade
@@ -155,25 +150,83 @@
       </section>
 
       <section class="sobre section" id="sobre">
-        <h2>Sobre mim</h2>
-        <img
-          src="https://media.licdn.com/dms/image/v2/D4D03AQGLtyZkyN_oiA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709860982570?e=1763596800&v=beta&t=gidIli7rN9ZEb8eEkx-jW1s6byKPZ-frsgin_USIE7U"
-          alt=""
-        />
-        <div class="texto">
-          <p>
-            Olá! Meu nome é Germana Maria Vaz e sou uma desenvolvedora frontend
-            apaixonada por criar experiências digitais incríveis. Com mais de 2
-            anos de experiência, tenho trabalhado em diversos projetos que me
-            permitiram aprimorar minhas habilidades em
-            <strong>JavaScript, React e frameworks modernos de CSS</strong>.
-          </p>
-          <p>
-            Quando não estou codificando, gosto de fazer trabalhos manuais, como
-            bordado e crochê, gosto de ler livros de ficção científica e
-            fantasia, assistir a filmes e séries, e adoro viajar para conhecer
-            novas culturas e lugares.
-          </p>
+        <h2 class="title-section">&lt; Sobre mim &gt;</h2>
+        <article>
+          <img src="/imagens/ft-germana.jpg" alt="" />
+          <div class="texto">
+            <p>
+              Olá! Meu nome é Germana Maria Vaz e sou uma desenvolvedora
+              frontend apaixonada por criar experiências digitais incríveis. Com
+              mais de 2 anos de experiência, tenho trabalhado em diversos
+              projetos que me permitiram aprimorar minhas habilidades em
+              <strong>JavaScript, React e frameworks modernos de CSS</strong>.
+            </p>
+            <p>
+              Quando não estou codificando, gosto de fazer trabalhos manuais,
+              como bordado e crochê, gosto de ler livros de ficção científica e
+              fantasia, assistir a filmes e séries, e adoro viajar para conhecer
+              novas culturas e lugares.
+            </p>
+          </div>
+        </article>
+
+        <div class="timeline">
+          <div class="timeline-item right">
+            <div class="content">
+              <span class="year">2022-Atualmente</span>
+              <h3>Desenvolvedor Frontend Wordpress e React</h3>
+              <p class="company">Freelancer -@germana.tech</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                asperiores sequi veritatis eos nesciunt enim ut ducimus fugit
+                soluta suscipit labore, porro delectus nobis similique
+                reiciendis earum sapiente provident quos?
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="content">
+              <span class="year">2022-24</span>
+              <h3>Ánalise e Desenvolvimento de Sistemas</h3>
+              <p class="company">Universidade Veiga de Almeida</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                aspernatur minus deserunt ex dignissimos quod enim nihil, at hic
+                illum, quibusdam deleniti assumenda asperiores quis quia
+                exercitationem ab! Possimus, molestiae!
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="content">
+              <span class="year">2021-22</span>
+              <h3>Especialização Direito Digital</h3>
+              <p class="company">Universidade Estadual do Rio de Janeiro</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur omnis voluptatum perspiciatis totam, dolores
+                officiis, dolorem numquam ducimus pariatur minima ipsum
+                recusandae assumenda facere voluptas accusamus accusantium
+                deserunt! Ab, necessitatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="content">
+              <span class="year">2015-20</span>
+              <h3>Direito</h3>
+              <p class="company">PUC-Rio</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                possimus, esse explicabo a similique at reprehenderit itaque
+                repudiandae ratione magnam quibusdam repellendus earum? Tempora
+                quia aliquam placeat qui laudantium enim!
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>

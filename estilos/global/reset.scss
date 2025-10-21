@@ -1,18 +1,23 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
 * {
   margin: 0;
-  color: #d3d3d3;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --azul: #1327ba;
+  --verde: #1e8d1d;
+  --azul-bg: #d2e5fa;
+  --branco-bg: #d3d3d3;
+  --preto: #000;
 }
 
 body,
 html {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: var(--preto);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 h1,
@@ -26,18 +31,61 @@ p {
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+.botao {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  color: #fff;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
+.btn-primary {
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg,
+      rgba(77, 162, 255, 0.3),
+      rgba(176, 80, 255, 0.3));
+  transition: 0.8s;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+}
+
+.btn-secondary {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(90deg,
+      rgba(77, 162, 255, 0.3),
+      rgba(176, 80, 255, 0.3));
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+}
+
+.section {
+  padding: 3rem 5rem;
+  text-align: center;
+  color: var(--branco-bg);
+}
+
+.title-section {
+  font-size: 2rem;
+  width: 100vw;
+  color: var(--branco-bg);
+  // background-image: linear-gradient(90deg, #4da2ff, #000);
+  // -webkit-background-clip: text;
+  // background-clip: text;
+  // color: transparent;
 }
