@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Germana Maria Vaz | Frontend Developer</title>
     <link rel="icon" href="/imagens/logo.jpg" type="image/png" />
-    <link rel="stylesheet" href="./estilos/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -18,7 +20,6 @@
       <nav>
         <ul>
           <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#stacks">Habilidades</a></li>
           <li><a href="#sobre">Sobre</a></li>
           <li>
             <a href="" class="botao btn-secondary btn-contato">Contato</a>
@@ -33,8 +34,7 @@
           <h1>&lt;Germana Vaz/&gt;</h1>
           <h2 class="hero-sub">Desenvolvedora Front-end</h2>
           <div class="hero-buttons">
-            <a href="#projetos" class="botao btn-primary">Ver Projetos →</a>
-
+            <a href="#projetos" class="botao btn-primary">Ver Projetos</a>
             <a href="#contato" class="botao btn-secondary">Entre em Contato</a>
           </div>
 
@@ -52,7 +52,7 @@
         </div>
       </section>
 
-      <section class="section" id="projetos">
+      <section class="section bg-amarelo" id="projetos">
         <h2 class="title-section">&lt;Projetos&gt;</h2>
         <p>
           Alguns dos meus trabalhos mais recentes que demonstram minhas
@@ -85,72 +85,12 @@
               </button>
             </div>
           </div>
-
-          <!-- CARD -->
-          <div class="projeto-card">
-            <a href="http://" target="_blank" rel="noopener noreferrer"
-              ><img src="./imagens/projetos/cardapio.png" alt="Projeto 1"
-            /></a>
-            <h3>Projeto 1</h3>
-            <p>
-              Descrição breve do projeto 1. Tecnologias usadas: HTML, CSS,
-              JavaScript.
-            </p>
-            <div class="tags">
-              <span>React</span><span>TypeScript</span><span>Tailwind</span
-              ><span>Stripe</span>
-            </div>
-            <div class="botoes">
-              <button class="btn-proj-primary">
-                <a href="" target="_blank" rel="noopener noreferrer"
-                  >💻 Código</a
-                >
-              </button>
-              <button href="#" class="btn-proj-secondary">
-                <a href="" target="_blank" rel="noopener noreferrer">🔗 Demo</a>
-              </button>
-            </div>
-          </div>
         </div>
       </section>
 
-      <section class="stacks section" id="stacks">
-        <h2 class="title-section">&lt;Principais Habilidades&gt;</h2>
-        <p class="stacks-sub">
-          Tecnologias e ferramentas que domino para criar soluções web de alta
-          qualidade
-        </p>
-
-        <div class="stack-grid">
-          <div class="stack-card">
-            <h3>React & TypeScript</h3>
-            <p>Desenvolvimento de interfaces modernas e type-safe</p>
-          </div>
-          <div class="stack-card">
-            <h3>Next.js</h3>
-            <p>SSR, SSG e otimização avançada de performance</p>
-          </div>
-          <div class="stack-card">
-            <h3>Tailwind CSS</h3>
-            <p>Estilização rápida e responsiva com utility-first</p>
-          </div>
-          <div class="stack-card">
-            <h3>REST & GraphQL</h3>
-            <p>Integração de APIs e gerenciamento de estado</p>
-          </div>
-          <div class="stack-card">
-            <h3>Performance</h3>
-            <p>Otimização de bundle size e Core Web Vitals</p>
-          </div>
-          <div class="stack-card">
-            <h3>Design Responsivo</h3>
-            <p>Mobile-first e cross-browser compatibility</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="sobre section" id="sobre">
+      <section class="sobre section bg-laranja" id="sobre">
         <h2 class="title-section">&lt; Sobre mim &gt;</h2>
+
         <article>
           <img src="/imagens/ft-germana.jpg" alt="" />
           <div class="texto">
@@ -169,65 +109,6 @@
             </p>
           </div>
         </article>
-
-        <div class="timeline">
-          <div class="timeline-item right">
-            <div class="content">
-              <span class="year">2022-Atualmente</span>
-              <h3>Desenvolvedor Frontend Wordpress e React</h3>
-              <p class="company">Freelancer -@germana.tech</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-                asperiores sequi veritatis eos nesciunt enim ut ducimus fugit
-                soluta suscipit labore, porro delectus nobis similique
-                reiciendis earum sapiente provident quos?
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item left">
-            <div class="content">
-              <span class="year">2022-24</span>
-              <h3>Ánalise e Desenvolvimento de Sistemas</h3>
-              <p class="company">Universidade Veiga de Almeida</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                aspernatur minus deserunt ex dignissimos quod enim nihil, at hic
-                illum, quibusdam deleniti assumenda asperiores quis quia
-                exercitationem ab! Possimus, molestiae!
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item right">
-            <div class="content">
-              <span class="year">2021-22</span>
-              <h3>Especialização Direito Digital</h3>
-              <p class="company">Universidade Estadual do Rio de Janeiro</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Consequuntur omnis voluptatum perspiciatis totam, dolores
-                officiis, dolorem numquam ducimus pariatur minima ipsum
-                recusandae assumenda facere voluptas accusamus accusantium
-                deserunt! Ab, necessitatibus.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline-item left">
-            <div class="content">
-              <span class="year">2015-20</span>
-              <h3>Direito</h3>
-              <p class="company">PUC-Rio</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                possimus, esse explicabo a similique at reprehenderit itaque
-                repudiandae ratione magnam quibusdam repellendus earum? Tempora
-                quia aliquam placeat qui laudantium enim!
-              </p>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
     <footer></footer>
