@@ -15,7 +15,8 @@
     />
   </head>
   <body>
-    <header>
+    <div></div>
+    <header id="header">
       <a class="logo">@germana.tech</a>
       <nav>
         <ul>
@@ -53,39 +54,54 @@
       </section>
 
       <section class="section bg-amarelo" id="projetos">
-        <h2 class="title-section">&lt;Projetos&gt;</h2>
-        <p>
-          Alguns dos meus trabalhos mais recentes que demonstram minhas
-          habilidades e experiência
-        </p>
+        <div class="title">
+          <h2 class="title-section">&lt;Projetos&gt;</h2>
+          <p>
+            Alguns dos meus trabalhos mais recentes que demonstram minhas
+            habilidades e experiência
+          </p>
+        </div>
 
         <div class="projetos-container">
           <!-- CARD -->
-          <div class="projeto-card">
-            <a href="http://" target="_blank" rel="noopener noreferrer"
-              ><img src="./imagens/projetos/cardapio.png" alt="Projeto 1"
-            /></a>
-            <h3>Projeto 1</h3>
-            <p>
-              Descrição breve do projeto 1. Tecnologias usadas: HTML, CSS,
-              JavaScript.
-            </p>
-            <div class="tags">
-              <span>React</span><span>TypeScript</span><span>Tailwind</span
-              ><span>Stripe</span>
+          <div class="card">
+            <div class="card-img">
+              <a
+                href="http://germana.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./imagens/projetos/cardapio.png" alt="Projeto 1"
+              /></a>
             </div>
-            <div class="botoes">
-              <button class="botao btn-secondary">
-                <a href="" target="_blank" rel="noopener noreferrer"
-                  >💻 Código</a
-                >
-              </button>
-              <button href="#" class="botao btn-primary">
-                <a href="" target="_blank" rel="noopener noreferrer">🔗 Demo</a>
-              </button>
+            <div class="card-text">
+              <h3>Projeto 1</h3>
+              <p>
+                Descrição breve do projeto 1. Tecnologias usadas: HTML, CSS,
+                JavaScript.
+              </p>
+              <div class="tags">
+                <span>React</span><span>TypeScript</span><span>Tailwind</span
+                ><span>Stripe</span>
+              </div>
+              <div class="botoes">
+                <button class="botao btn-secondary">
+                  <a href="" target="_blank" rel="noopener noreferrer"
+                    >💻 Código</a
+                  >
+                </button>
+                <button href="#" class="botao btn-primary">
+                  <a href="" target="_blank" rel="noopener noreferrer"
+                    >🔗 Demo</a
+                  >
+                </button>
+              </div>
             </div>
           </div>
         </div>
+
+        <a href="https://github.com/germanavaz" class="botao btn-primary"
+          >Ver mais projetos</a
+        >
       </section>
 
       <section class="sobre section bg-laranja" id="sobre">
