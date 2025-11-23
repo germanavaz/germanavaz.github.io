@@ -44,7 +44,7 @@ a {
 .botao {
   padding: 12px 24px;
   border: none;
-  border-radius: 20px;
+  border-radius: 50px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -181,7 +181,7 @@ main {
 
 /* Banner */
 .banner {
-  height: 95vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -190,7 +190,6 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 0 0 50px 50px;
 }
 
 .banner h1 {
@@ -207,20 +206,21 @@ main {
 .banner .hero-sub {
   margin-bottom: 5rem;
 }
-.banner .social-icons {
+
+.social-icons {
   margin-top: 40px;
   font-size: 1rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
-.banner .social-icons img {
+.social-icons img {
   background-color: #fff;
   padding: 0.1rem;
   border-radius: 100%;
   width: 50px;
 }
-.banner .social-icons img:hover {
+.social-icons img:hover {
   background: var(--laranja);
   transition: 1s;
 }
@@ -327,11 +327,43 @@ main {
   justify-content: space-evenly;
 }
 
+.contato {
+  background-image: url("/imagens/bg.jpg");
+  border-radius: 50px 50px 0 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.contato .infos {
+  max-width: 40vw;
+}
+.contato .imagem {
+  width: 60vw;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background-image: url(./imagens/img-telefone.jpg);
+  background-position: center;
+}
+
 @media (max-width: 768px) {
   .bg-laranja {
     margin: 1rem 1rem 0.5rem;
   }
   .bg-amarelo {
     margin: 1rem 1rem 0.5rem;
+  }
+  #header {
+    display: none;
+  }
+  .banner .hero-pre {
+    font-size: 1.5rem;
+  }
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
